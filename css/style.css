@@ -381,6 +381,10 @@ html {
     box-sizing: inherit;
 }
 
+p {
+    margin: 0px;
+}
+
 .container {
     width: 320px;
     padding: 0 20px;
@@ -394,6 +398,14 @@ html {
 .header__img {
     width: 191px;
     height: 39px;
+}
+
+.header__img:hover {
+    opacity: 0.8;
+}
+
+.header__img:focus {
+    opacity: 0.6;
 }
 
 .header__item {
@@ -418,6 +430,7 @@ html {
 
 .header__logo {
     padding-left: 21px;
+    text-decoration: none;
 }
 
 .header__wraper {
@@ -506,6 +519,15 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 22px;
+}
+
+.main__choice:hover {
+    background-color: #5eaa2f;
+}
+
+.main__choice:focus {
+    background-color: #5eaa2f;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .main {
@@ -853,7 +875,7 @@ html {
     width: 82px;
     height: 21px;
     background-color: #f2f2f2;
-    margin-top: -33px;
+    margin-top: -10px;
     margin-left: 21px;
 }
 
@@ -865,7 +887,7 @@ html {
     color: #111111;
     text-transform: uppercase;
     margin: 0px;
-    padding-top: 9px;
+    padding-top: 22px;
 }
 
 .example__past {
@@ -893,7 +915,7 @@ html {
 .example__items {
     display: flex;
     justify-content: space-around;
-    padding-top: 14px;
+    padding-top: 30px;
     padding-left: 5px;
     position: relative;
 }
@@ -923,8 +945,187 @@ html {
 .example__item {
     margin-left: 19px;
     margin-right: 12px;
+    margin-top: 24px;
 }
 
 .example__compare {
     margin-top: 41px;
+}
+
+.footer {
+    padding: 0px;
+}
+
+.footer__cooperation {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: left;
+    color: #111111;
+    text-transform: uppercase;
+    margin: 0px;
+    width: 141px;
+}
+
+.footer__text {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: left;
+    color: #444444;
+}
+
+.footer__academy-link {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+    color: #444444;
+    padding-top: 22px;
+    padding-right: 71px;
+}
+
+.footer__link-second {
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.footer__img {
+    width: 320px;
+    height: 362px;
+}
+
+.footer__icon-inscription {
+    width: 128px;
+    height: 24px;
+}
+
+.footer__icon-inscription:hover {
+    opacity: 0.8;
+}
+
+.footer__icon-inscription:focus {
+    opacity: 0.6;
+}
+
+.footer__icon {
+    padding-top: 27px;
+}
+
+.footer__img-vk {
+    width: 22px;
+    height: 12px;
+}
+
+.footer__img-vk:hover {
+    fill: #68b738;
+}
+
+.footer__img-vk:focus {
+    fill: #68b738;
+    opacity: 0.3;
+}
+
+.footer__img-insta {
+    width: 17px;
+    height: 17px;
+}
+
+.footer__img-insta:hover {
+    fill: #68b738;
+}
+
+.footer__img-fb {
+    width: 10px;
+    height: 19px;
+}
+
+.footer__wraper {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.footer__information {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.footer__address {
+    padding-top: 30px;
+}
+
+.footer__map {
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.footer__map::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/icon.png);
+    width: 55px;
+    height: 53px;
+    top: 140px;
+    left: 136px;
+}
+
+.footer__socials {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding-left: 74px;
+    padding-top: 52px;
+    width: 100%;
+    position: relative;
+}
+
+.footer__socials::before {
+    content: '';
+    position: absolute;
+    width: 280px;
+    border: solid 1px #e3e3e3;
+    top: 28px;
+    left: 0px;
+}
+
+.footer__socials::after {
+    content: '';
+    position: absolute;
+    width: 280px;
+    border: solid 1px #e3e3e3;
+    top: 90px;
+    left: 0px;
+}
+
+.footer__relation {
+    padding-top: 35px;
+    padding-left: 19px;
+    background-color: #f2f2f2;
+    height: 236px;
+}
+
+.footer__link {
+    padding-left: 78px;
+}
+
+.footer__logo-img {
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+.footer__item-vk {
+    padding-right: 18px;
+}
+
+.footer__item-insta {
+    padding-left: 18px;
+    padding-right: 20px;
+}
+
+.footer__item-fb {
+    padding-left: 20px;
+}
+
+.footer__academy-logo {
+    padding-left: 138px;
 }
