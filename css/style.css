@@ -387,7 +387,7 @@ p {
 
 .container {
     width: 320px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     margin: 0 auto;
 }
 
@@ -445,7 +445,7 @@ p {
     border: none;
     top: -20px;
     left: 66px;
-
+    cursor: pointer;
 }
 
 .header__close--button::after {
@@ -571,13 +571,8 @@ p {
     position: relative;
 }
 
-.section__link::before {
-    content: '';
-    position: absolute;
-    width: 240px;
-    border: solid 1px #e3e3e3;
-    top: -16px;
-    left: 20px;
+.section__link:focus {
+    opacity: 0.3;
 }
 
 .section__link::after {
@@ -659,6 +654,27 @@ p {
 
 .section__products {
     margin-top: 32px;
+    position: relative;
+}
+
+.section__products::before {
+    content: '';
+    position: absolute;
+    width: 240px;
+    border: solid 1px #e3e3e3;
+    top: 207px;
+    left: 40px;
+    z-index: 1;
+}
+
+.section__products::after {
+    content: '';
+    position: absolute;
+    width: 240px;
+    border: solid 1px #e3e3e3;
+    top: 494px;
+    left: 40px;
+    z-index: 1;
 }
 
 .page__title {
@@ -792,15 +808,22 @@ p {
     padding-left: 80px;
 }
 
+.main__wraper {
+    background-color: #68b738;
+}
+
 .page {
-    margin-top: 17px;
-    margin-left: 20px;
+    padding-left: 19px;
+    padding-top: 17px;
+}
+
+.example {
+    height: 705px;
+    margin-top: 45px;
 }
 
 .example {
     background-color: #f2f2f2;
-    height: 705px;
-    margin-top: 45px;
 }
 
 .example__title {
@@ -990,10 +1013,7 @@ p {
     display: inline-flex;
 }
 
-.footer__img {
-    width: 320px;
-    height: 362px;
-}
+
 
 .footer__icon-inscription {
     width: 128px;
@@ -1004,7 +1024,7 @@ p {
     opacity: 0.8;
 }
 
-.footer__icon-inscription:focus {
+.footer__icon-inscription:active {
     opacity: 0.6;
 }
 
@@ -1021,7 +1041,7 @@ p {
     fill: #68b738;
 }
 
-.footer__img-vk:focus {
+.footer__img-vk:active {
     fill: #68b738;
     opacity: 0.3;
 }
@@ -1033,6 +1053,20 @@ p {
 
 .footer__img-insta:hover {
     fill: #68b738;
+}
+
+.footer__img-insta:active {
+    fill: #68b738;
+    opacity: 0.3;
+}
+
+.footer__img-fb:hover {
+    fill: #68b738;
+}
+
+.footer__img-fb:active {
+    fill: #68b738;
+    opacity: 0.3;
 }
 
 .footer__img-fb {
@@ -1057,16 +1091,6 @@ p {
 .footer__map {
     background-color: #f2f2f2;
     position: relative;
-}
-
-.footer__map::before {
-    content: '';
-    position: absolute;
-    background-image: url(../img/icon.png);
-    width: 55px;
-    height: 53px;
-    top: 140px;
-    left: 136px;
 }
 
 .footer__socials {
@@ -1100,12 +1124,21 @@ p {
 .footer__relation {
     padding-top: 35px;
     padding-left: 19px;
-    background-color: #f2f2f2;
     height: 236px;
+}
+
+.footer__bg {
+    background-color: #f2f2f2;
 }
 
 .footer__link {
     padding-left: 78px;
+}
+
+.footer__google-map {
+    border: 0;
+    width: 100%;
+    height: 362px;
 }
 
 .footer__logo-img {
