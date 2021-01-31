@@ -404,7 +404,7 @@ p {
     opacity: 0.8;
 }
 
-.header__img:focus {
+.header__img:active {
     opacity: 0.6;
 }
 
@@ -424,7 +424,7 @@ p {
 .header__list {
     list-style: none;
     padding-left: 0px;
-    padding-top: 3px;
+    padding-top: 11px;
     margin: 0px;
 }
 
@@ -435,26 +435,52 @@ p {
 
 .header__wraper {
     padding-top: 12px;
+    position: relative;
 }
 
 .header__close {
-    position: relative;
-    width: 19px;
+    position: absolute;
+    width: 25px;
     height: 19px;
     background-color: transparent;
     border: none;
-    top: -20px;
-    left: 66px;
+    top: -31px;
+    left: 277px;
     cursor: pointer;
 }
 
-.header__close--button::after {
+/* .header__close:focus{
+    border: solid 1px #68b738;
+} */
+.header__nav {
+    position: relative;
+}
+
+.nav-closed .header__close::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/mobile-menu.svg);
+    width: 25px;
+    height: 19px;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-opened {
+    display: block;
+}
+
+.nav-closed ul {
+    display: none;
+}
+
+.nav-opened .header__close::after {
     content: '';
     position: absolute;
     width: 19px;
     height: 19px;
-    top: 1px;
-    left: 0px;
+    top: -1px;
+    left: 3px;
     background-image: url(../img/close.svg)
 }
 
@@ -1013,7 +1039,13 @@ p {
     display: inline-flex;
 }
 
+.footer__link-second:hover {
+    opacity: 0.8;
+}
 
+.footer__link-second:active {
+    opacity: 0.6;
+}
 
 .footer__icon-inscription {
     width: 128px;
