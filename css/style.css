@@ -436,6 +436,20 @@ p {
 .header__wraper {
     padding-top: 12px;
     position: relative;
+    padding-bottom: 10px;
+}
+
+.section-catalog__item-first {
+    display: flex;
+    padding-left: 21px;
+    padding-bottom: 7px;
+    margin-top: 2px;
+}
+
+.section-catalog__item-second {
+    display: flex;
+    padding-left: 21px;
+    padding-bottom: 6px;
 }
 
 .header__close {
@@ -449,9 +463,6 @@ p {
     cursor: pointer;
 }
 
-/* .header__close:focus{
-    border: solid 1px #68b738;
-} */
 .header__nav {
     position: relative;
 }
@@ -1193,4 +1204,279 @@ p {
 
 .footer__academy-logo {
     padding-left: 138px;
+}
+
+.section-catalog__title {
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.67;
+    text-align: left;
+    color: #111111;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.section-catalog__subtitle {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: left;
+    color: #111111;
+    text-transform: uppercase;
+    width: 74px;
+}
+
+.section-catalog__item {
+    padding: 2px 0px 33px 0px;
+    border: solid 1px #ededed;
+    margin-top: 28px;
+}
+
+
+.section-catalog__item-sixth {
+    display: flex;
+    padding-left: 21px;
+    padding-bottom: 7px;
+}
+
+.section-catalog__volume {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+    padding-right: 32px;
+}
+
+.section-catalog__mass {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    font-weight: normal;
+    padding-left: 41px;
+}
+
+.section-catalog__taste {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    padding-right: 28px;
+}
+
+.section-catalog__table {
+    padding-top: 11px;
+    border-spacing: 0.5px;
+}
+
+.section-catalog__chicken {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    padding-left: 30px;
+}
+
+.section-catalog__rice {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    padding-left: 49px;
+}
+
+.section-catalog__prise-value {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    font-weight: normal;
+    padding-right: 28px;
+}
+
+.section-catalog__prise {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    font-weight: normal;
+    padding-left: 37px;
+}
+
+.section-catalog__fish {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: left;
+    color: #444444;
+    font-weight: normal;
+    padding-left: 39px;
+}
+
+.section-catalog__item-third {
+    display: flex;
+    padding-left: 21px;
+    padding-bottom: 7px;
+}
+
+.section-catalog__item-fifth {
+    display: flex;
+    padding-bottom: 7px;
+    padding-left: 21px;
+}
+
+.section-catalog__item-fourth {
+    display: flex;
+    padding-left: 21px;
+    padding-bottom: 7px;
+}
+
+.section-catalog__link-order {
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 9px 108px 8px 111px;
+    background-color: #68b738;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 21px;
+}
+
+.section-catalog__list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-catalog__products {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    color: #111111;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.section-catalog__link-plus {
+    padding-left: 140px;
+}
+
+.section-catalog__description {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.33;
+    text-align: center;
+    color: #444444;
+    padding-top: 9px;
+    padding-bottom: 31px;
+}
+
+.section-catalog__element-show {
+    padding-top: 26px;
+    padding-left: 5px;
+}
+
+.section-catalog__element-first {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 34px;
+}
+
+.section-catalog__element-second {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 34px;
+}
+
+.section-catalog__element-third {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 36px;
+}
+
+.section-catalog__element-fourth {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 33px;
+}
+
+.section-catalog__element-fifth {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 33px;
+}
+
+.section-catalog__element-sixth {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 33px;
+}
+
+.section-catalog__element-seventh {
+    border-left: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 34px;
+}
+
+.section-catalog__show-all {
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    color: #444444;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 16px;
+    padding: 8px 93px 8px 97px;
+    background-color: #f2f2f2;
+}
+
+.section-catalog__img-plus {
+    width: 31px;
+    height: 31px;
+    opacity: 0.2;
+}
+
+.section-catalog__wraper-item {
+    display: flex;
+    padding-left: 21px;
+    padding-bottom: 6px;
+}
+
+.section-catalog__catalog {
+    padding-left: 22px;
+    border-top: solid 0.5px #e8e8e8;
+}
+
+.section-catalog__order {
+    padding-top: 21px;
 }
