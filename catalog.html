@@ -36,8 +36,8 @@
         </div>
     </header>
 
-    <main class="container">
-        <section class="section-catalog">
+    <main class="main">
+        <section class="section-catalog container">
             <div class="section-catalog__catalog">
                 <h1 class="section-catalog__title">Каталог продукции</h1>
             </div>
@@ -65,7 +65,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">700 Р.</th>
+                                        <th class="section-catalog__prise">700 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -94,7 +94,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">1000 Р.</th>
+                                        <th class="section-catalog__prise">1000 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -123,7 +123,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">700 Р.</th>
+                                        <th class="section-catalog__prise">700 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -152,7 +152,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">1000 Р.</th>
+                                        <th class="section-catalog__prise">1000 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -181,7 +181,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">400 Р.</th>
+                                        <th class="section-catalog__prise">400 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -210,7 +210,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">700 Р.</th>
+                                        <th class="section-catalog__prise">700 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -239,7 +239,7 @@
                                     </tr>
                                     <tr class="section-catalog__value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">500 Р.</th>
+                                        <th class="section-catalog__prise">500 р.</th>
                                     </tr>
                                 </table>
                             </div>
@@ -267,42 +267,79 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Дополнительные товары</h2>
-                <ul>
-                    <li>
-                        <p>Сахарозаменитель</p>
-                        <table>
+        <section class="section-goods">
+            <div class="section-goods__wraper container">
+                <h2 class="section-goods__title">Дополнительные товары</h2>
+                <div class="section-goods__description">
+                    <div class="section-goods__item">
+                        <p class="section-goods__subtitle">Сахарозаменитель</p>
+                        <table class="section-goods__table">
                             <tr>
-                             <th>Ячейка 1</th>
-                             <th>Ячейка 2</th>
+                                <th class="section-goods__mass">1 упаковка (100 г)</th>
+                                <th class="section-goods__price">200 р.</th>
                             </tr>
-                          </table>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                        </table>
+                        <a class="section-goods__link" href="#">Заказать</a>
+                    </div>
+                    <div class="section-goods__item-first">
+                        <p class="section-goods__subtitle">Питьевая вода</p>
+                        <table class="section-goods__table">
+                            <tr>
+                                <th class="section-goods__mass-liter">5 литров</th>
+                                <th class="section-goods__price-value">50 р.</th>
+                            </tr>
+                        </table>
+                        <a class="section-goods__link" href="#">Заказать</a>
+                    </div>
+                    <div class="section-goods__item-second">
+                        <p class="section-goods__subtitle">Молоко</p>
+                        <table class="section-goods__table">
+                            <tr>
+                                <th class="section-goods__mass-liter-first">1 литр</th>
+                                <th class="section-goods__price-value-first">100 р.</th>
+                            </tr>
+                        </table>
+                        <a class="section-goods__link" href="#">Заказать</a>
+                    </div>
+                    <div class="section-goods__item-third">
+                        <p class="section-goods__subtitle">Витамины</p>
+                        <table class="section-goods__table">
+                            <tr>
+                                <th class="section-goods__mass">1 упаковка (30 г)</th>
+                                <th class="section-goods__price-value-second">300 р.</th>
+                            </tr>
+                        </table>
+                        <a class="section-goods__link" href="#">Заказать</a>
+                    </div>
+                </div>
+                <div class="section-goods__get-gift">
+                    <div class="section-goods__get-gift-bg">
+                        <p class="section-goods__order-subtitle">Закажите все<br>
+                            и получите чехол для кота в подарок!
+                        </p>
+                    </div>
+                </div>
+
             </div>
-            <div></div>
         </section>
     </main>
 
     <footer class="footer">
+        <div class=" footer__background">
+            <div class="footer__wraper container">
+                <div class="footer__information">
+                    <p class="footer__cooperation">приглашаем <br>
+                        к сотрудничеству
+                        дилеров!
+                    </p>
+                </div>
+                <div class="footer__address">
+                    <p class="footer__text">
+                        ул. Большая Конюшенная, д. 19/8
+                        Санкт-Петербург
+                    </p>
+                </div>
 
-        <div class="footer__wraper container">
-            <div class="footer__information">
-                <p class="footer__cooperation">приглашаем <br>
-                    к сотрудничеству
-                    дилеров!
-                </p>
-            </div>
-            <div class="footer__address">
-                <p class="footer__text">
-                    ул. Большая Конюшенная, д. 19/8
-                    Санкт-Петербург
-                </p>
             </div>
         </div>
         <div class="footer__map">
@@ -366,8 +403,10 @@
                 <div class="footer__icon">
                     <a class="footer__link-second" href="https://htmlacademy.ru/intensive/adaptive">
                         <p class="footer__academy-link">HTML Academy</p>
-                        <img class="footer__logo-img" src="img/htmlacademy.svg" alt="htmlacademy">
-
+                        <svg class="footer__logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.943 34.09">
+                            <path
+                                d="M13.62.017L13.472 0 0 1.412v24.661l13.473 8.017 13.43-7.99.042-.025V1.412L13.62.017zm11.399 12.11L13.495 5.334l-.001-.104-.087.05-.088-.056v.109L1.925 12.118V3.147l11.548-1.212L25.02 3.147v8.98zm-11.614-5.34L24.923 13.5l-4.479 2.64-7.093-4.221-.014 1.415 5.904 3.513-.86.507-5.03-2.992-.014 1.415 3.827 2.275-.782.523-3.031-1.787-.014 1.413 1.853 1.091-1.8 1.081-11.356-6.751 11.371-6.835zm-11.48 8.34l11.411 6.791.016 1.044-7.942-4.728-.015 1.416 7.979 4.795.018 1.076-7.973-4.74-.013 1.414 8.021 4.822.046.025 8.143-4.872-.011-5.177 3.415-2.036v10.021L13.472 31.85 1.925 24.979v-9.852z" />
+                        </svg>
                     </a>
                 </div>
             </div>
