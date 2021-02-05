@@ -36,8 +36,8 @@
         </div>
     </header>
     <main class="main">
-        <section class="section-choice container">
-            <div class="section-choice__program">
+        <section class="section-choice">
+            <div class="section-choice__program  container">
                 <h1 class="section-choice__title">Подбор программы
                 </h1>
                 <p class="section-choice__subtitle">Заполните анкету и мы подберем
@@ -45,7 +45,7 @@
                 </p>
             </div>
             <form class="section-choice__user-form" action="https://echo.htmlacademy.ru" method="post">
-                <div class="section-choice__wraper">
+                <div class="section-choice__wraper  container">
                     <fieldset class="section-choice__questionnaire">
                         <p class="section-choice__name">
                             <label class="section-choice__name-label" for="name">Имя:*</label>
@@ -63,33 +63,100 @@
                         </p>
                     </fieldset>
                 </div>
-                <div class="section-choice__checkbox">
+                <div class="section-choice__checkbox  container">
                     <fieldset class="section-choice__fieldset">
                         <p class="section-choice__slim">
-                            <input class="section-choice__slim-input" type="radio" name="slim" id="slim" checked="">
+                            <input class="section-choice__slim-input" id="slim" type="radio" name="radio" value="first"
+                                checked>
                             <label class="section-choice__slim-label" for="slim">Похудение</label>
                         </p>
+
                         <p class="section-choice__mass">
-                            <input class="section-choice__mass-input" type="radio" name="mass" id="mass">
+                            <input class="section-choice__mass-input" id="mass" type="radio" name="radio"
+                                value="second">
                             <label class="section-choice__mass-label" for="mass">Набор массы</label>
                         </p>
+
                         <p class="section-choice__help">
-                            <input class="section-choice__help-input" type="radio" name="help" id="help">
+                            <input class="section-choice__help-input" id="help" type="radio" name="radio" value="third">
                             <label class="section-choice__help-label" for="help">Не знаю (Нужен ваш совет)</label>
                         </p>
+
                     </fieldset>
                 </div>
+                <div class="section-choice__data-wraper">
+                    <div class="section-choice__data  container">
+                        <fieldset class="section-choice__data-fieldset">
+                            <p class="section-choice__data-title">Контактные данные
+                                (владельца кота)
+                            </p>
+                            <p class="section-choice__mail">
+                                <label class="section-choice__mail-label" for="mail">E-mail:*</label>
+                                <input class="section-choice__mail-input" type="email" name="text" id="mail"
+                                    placeholder="kuklachev@gmail.com">
+                            </p>
+                            <p class="section-choice__phone">
+                                <label class="section-choice__phone-label" for="phone">Телефон:*</label>
+                                <input class="section-choice__phone-input" type="number" name="text" id="phone"
+                                    placeholder="8 (960) 900-60-90">
+                            </p>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="section-choice__comments">
+                    <div class="section-choice__comments-wraper container">
+                        <fieldset class="section-choice__comments-fieldset">
+                            <div class="section-choice__comments-title">
+                                <label class="section-choice__comments-label" for="comments">Комментарий</label>
+                            </div>
+                            <div class="section-choice__comments-tell">
+                                <textarea class="section-choice__comments-text" rows="1" cols="46" name="comments"
+                                    id="comments" placeholder="Расскажите обо всех повадках кота"></textarea>
+                            </div>
 
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="section-choice__extra">
+                    <div class="section-choice__extra-wraper container">
+                        <div class="section-choice__extra-inscription">
+                            <p class="section-choice__extra-title">Дополнительно</p>
+                        </div>
+                        <fieldset class="section-choice__extra-fieldset">
+                            <div class="section-choice__extra-list">
+                                <p class="section-choice__extra-block">
+                                    <input class="section-choice__extra-block-input" type="checkbox" name="sugar"
+                                        id="sugar">
+                                    <label class="section-choice__extra-block-label"
+                                        for="sugar">Сахарозаменитель</label>
+                                </p>
+                                <p class="section-choice__extra-block-first">
+                                    <input class="section-choice__extra-first-input" type="checkbox" name="water"
+                                        id="water">
+                                    <label class="section-choice__extra-first-label" for="water">Питьевая вода</label>
 
+                                </p>
+                                <p class="section-choice__extra-block-second">
+                                    <input class="section-choice__extra-second-input" type="checkbox" name="milk"
+                                        id="milk">
+                                    <label class="section-choice__extra-second-input" for="milk">Молоко</label>
 
-                <button class="section-choice__button" type="submit">Отправить заявку</button>
+                                </p>
+                                <p class="section-choice__extra-block-third">
+                                    <input class="section-choice__extra-third-input" type="checkbox" name="vitamins"
+                                        id="vitamins">
+                                    <label class="section-choice__extra-third-input" for="vitamins">Витамины</label>
+                                </p>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="section-choice__extra-submit container">
+                        <button class="section-choice__button" type="submit">Отправить заявку</button>
+                        <small class="section-choice__extra-necessarily">* — Обязательные поля</small>
+                    </div>
+                </div>
             </form>
-
-
-
         </section>
-
-
 
     </main>
     <footer class="footer">
