@@ -25,7 +25,7 @@
                             <a class="header__main" href="index.html">Главная</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__catalog" href="catalog.html">Каталог продукции</a>
+                            <a class="header__catalog header__catalog--active" href="catalog.html">Каталог продукции</a>
                         </li>
                         <li class="header__item">
                             <a class="header__program" href="form.html">Подбор программы</a>
@@ -47,23 +47,26 @@
                         <div class="section-catalog__wraper-item">
                             <div class="section-catalog__element">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-1.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-1-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-1.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
                             <div class="section-catalog__order">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     PRO 500 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--first">
                                         <th class="section-catalog__volume">Объем
                                         </th>
                                         <th class="section-catalog__mass">500 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--second">
                                         <td class="section-catalog__taste">Вкус</td>
                                         <td class="section-catalog__chicken">Курица</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--third">
                                         <th class="section-catalog__prise-value">Цена</th>
                                         <th class="section-catalog__prise">700 р.</th>
                                     </tr>
@@ -74,54 +77,60 @@
                     </li>
                     <li class="section-catalog__element-first">
                         <div class="section-catalog__item-first">
-                            <div class="section-catalog__element">
+                            <div class="section-catalog__element section-catalog__element--second">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-2.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-2-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-2.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
-                            <div class="section-catalog__order">
+                            <div class="section-catalog__order section-catalog__order-second">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     PRO 1000 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-mass">
                                         <th class="section-catalog__volume">Объем
                                         </th>
-                                        <th class="section-catalog__mass">1000 г</th>
+                                        <th class=" section-catalog__mass-second">1000 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-taste">
                                         <td class="section-catalog__taste">Вкус</td>
                                         <td class="section-catalog__chicken">Курица</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-prise">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">1000 р.</th>
+                                        <th class="section-catalog__prise-second">1000 р.</th>
                                     </tr>
                                 </table>
                             </div>
                         </div>
-                        <a class="section-catalog__link-order" href="#">Заказать</a>
+                        <a class="section-catalog__link-order section-catalog__link-order-second" href="#">Заказать</a>
                     </li>
                     <li class="section-catalog__element-second">
                         <div class="section-catalog__item-second">
                             <div class="section-catalog__element">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-3.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-3-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-3.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
                             <div class="section-catalog__order">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     PRO 500 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--mass">
                                         <th class="section-catalog__volume">Объем
                                         </th>
                                         <th class="section-catalog__mass">500 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--taste">
                                         <td class="section-catalog__taste">Вкус</td>
                                         <td class="section-catalog__fish">Рыба</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--prise">
                                         <th class="section-catalog__prise-value">Цена</th>
                                         <th class="section-catalog__prise">700 р.</th>
                                     </tr>
@@ -134,52 +143,58 @@
                         <div class="section-catalog__item-third">
                             <div class="section-catalog__element">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-4.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-4-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-4.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
-                            <div class="section-catalog__order">
+                            <div class="section-catalog__order section-catalog__order-third">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     PRO 1000 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__first-value">
                                         <th class="section-catalog__volume">Объем
                                         </th>
-                                        <th class="section-catalog__mass">1000 г</th>
+                                        <th class=" section-catalog__mass-second">1000 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__second-value">
                                         <td class="section-catalog__taste">Вкус</td>
                                         <td class="section-catalog__fish">Рыба</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__third-value">
                                         <th class="section-catalog__prise-value">Цена</th>
-                                        <th class="section-catalog__prise">1000 р.</th>
+                                        <th class="section-catalog__prise-second">1000 р.</th>
                                     </tr>
                                 </table>
                             </div>
                         </div>
-                        <a class="section-catalog__link-order" href="#">Заказать</a>
+                        <a class="section-catalog__link-order section-catalog__link-order-second" href="#">Заказать</a>
                     </li>
                     <li class="section-catalog__element-fourth">
                         <div class="section-catalog__item-fourth">
                             <div class="section-catalog__element">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-5.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-5-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-5.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
                             <div class="section-catalog__order">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     Slim 500 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--value">
                                         <th class="section-catalog__volume">Объем
                                         </th>
                                         <th class="section-catalog__mass">500 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value  section-catalog__value-value-taste">
                                         <td class="section-catalog__taste">Вкус</td>
-                                        <td class="section-catalog__chicken">Гречка</td>
+                                        <td class="section-catalog__poridge">Гречка</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-value-prise">
                                         <th class="section-catalog__prise-value">Цена</th>
                                         <th class="section-catalog__prise">400 р.</th>
                                     </tr>
@@ -192,52 +207,58 @@
                         <div class="section-catalog__item-fifth">
                             <div class="section-catalog__element">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-6.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-6-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-6.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
-                            <div class="section-catalog__order">
+                            <div class="section-catalog__order section-catalog__order-wraper">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     Slim 1000 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value--fifth">
                                         <th class="section-catalog__volume">Объем
                                         </th>
-                                        <th class="section-catalog__mass">1000 г</th>
+                                        <th class=" section-catalog__mass-second">1000 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-taste-fifth">
                                         <td class="section-catalog__taste">Вкус</td>
-                                        <td class="section-catalog__chicken">Гречка</td>
+                                        <td class="section-catalog__poridge">Гречка</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-prise-fifth">
                                         <th class="section-catalog__prise-value">Цена</th>
                                         <th class="section-catalog__prise">700 р.</th>
                                     </tr>
                                 </table>
                             </div>
                         </div>
-                        <a class="section-catalog__link-order" href="#">Заказать</a>
+                        <a class="section-catalog__link-order section-catalog__link-order-second" href="#">Заказать</a>
                     </li>
                     <li class="section-catalog__element-sixth">
                         <div class="section-catalog__item-sixth">
                             <div class="section-catalog__element">
                                 <a class="section-catalog__link" href="#">
-                                    <img class="section-catalog__img" src="img/catalog-7.png" alt="">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/catalog-7-tablet.png">
+                                        <img class="section-catalog__img" src="img/catalog-7.png" alt="">
+                                    </picture>
                                 </a>
                             </div>
                             <div class="section-catalog__order">
                                 <p class="section-catalog__subtitle">Cat Energy
                                     Slim 500 г</p>
                                 <table class="section-catalog__table">
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-mass-first">
                                         <th class="section-catalog__volume">Объем
                                         </th>
                                         <th class="section-catalog__mass">500 г</th>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-taste-first">
                                         <td class="section-catalog__taste">Вкус</td>
                                         <td class="section-catalog__rice">Рис</td>
                                     </tr>
-                                    <tr class="section-catalog__value">
+                                    <tr class="section-catalog__value section-catalog__value-prise-first">
                                         <th class="section-catalog__prise-value">Цена</th>
                                         <th class="section-catalog__prise">500 р.</th>
                                     </tr>
@@ -336,8 +357,9 @@
                 <div class="footer__address">
                     <p class="footer__text">
                         ул. Большая Конюшенная, д. 19/8
-                        Санкт-Петербург
+
                     </p>
+                    <p class="footer__text-second"> Санкт-Петербург</p>
                 </div>
 
             </div>

@@ -23,7 +23,7 @@
                 <div class="header__list-wraper">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a class="header__main" href="index.html">Главная</a>
+                            <a class="header__main header__main--active" href="index.html">Главная</a>
                         </li>
                         <li class="header__item">
                             <a class="header__catalog" href="catalog.html">Каталог продукции</a>
@@ -58,7 +58,8 @@
                 <ul class="section__list">
                     <li class="section__item-slim">
                         <p class="section__title">Похудение</p>
-                        <p class="section__description">Ваш кот весит больше собаки и почти утратил способность лазить
+                        <p class="section__description description-second">Ваш кот весит больше собаки и почти утратил
+                            способность лазить
                             по деревьям? Пора на диету!
                             Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
                         <a class="section__link" href="#">Каталог Slim</a>
@@ -67,7 +68,7 @@
                         <p class="section__title">Набор массы</p>
                         <p class="section__description">Заработать авторитет среди дворовых котов и даже собак?
                             Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-                        <a class="section__link" href="#">Каталог pro</a>
+                        <a class="section__link-arrow" href="#">Каталог pro</a>
                     </li>
                 </ul>
             </div>
@@ -75,11 +76,23 @@
         <section class="page container">
             <p class="page__title">Как это работает</p>
             <ul class="page__list">
-                <li class="page__item-health">Функциональное питание содержит только полезные питательные вещества.</li>
-                <li class="page__item-powder">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+                <li class="page__item-health">
+                    <p class="page__item-health-subtitle">Функциональное питание содержит только полезные питательные
+                        вещества.</p>
                 </li>
-                <li class="page__item-food">Замените один-два приема обычной еды на наше функциональное питание.</li>
-                <li class="page__item-enjoy">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</li>
+                <li class="page__item-powder">
+                    <p class="page__item-powder-subtitle">Выпускается в виде порошка, который нужно лишь залить кипятком
+                        и готово.</p>
+
+                </li>
+                <li class="page__item-food">
+                    <p class="page__item-food-subtitle">Замените один-два приема обычной еды на наше функциональное
+                        питание.</p>
+                </li>
+                <li class="page__item-enjoy">
+                    <p class="page__item-enjoy-subtitle">Уже через месяц наслаждайтесь изменениями к лучшему вашего
+                        питомца!</p>
+                </li>
             </ul>
         </section>
         <section class="example">
@@ -104,14 +117,19 @@
                                 времени</p>
                         </div>
                     </div>
-                    <p class="example__cost">Затраты на питание: 15 000 руб.</p>
+                    <div class="example__food-cost">
+                        <p class="example__cost">Затраты на питание:</p>
+                        <p class="example__cost-second"> 15 000 руб.</p>
+                    </div>
                 </div>
 
-                <div class="example__compare">
+            </div>
+            <div class="example__compare-wraper">
+                <div class="example__compare container">
                     <img class="example__img" src="img/cat.png" alt="cat">
                     <div class="example__items">
-                        <p class="example__past">Было</p>
-                        <p class="example__present">Стало</p>
+                        <button class="example__past">Было</button>
+                        <button class="example__present">Стало</button>
                     </div>
                 </div>
             </div>
@@ -119,7 +137,7 @@
     </main>
     <footer class="footer">
 
-        <div class="footer__wraper container">
+        <div class="footer__wraper footer__wraper-bg container">
             <div class="footer__information">
                 <p class="footer__cooperation">приглашаем <br>
                     к сотрудничеству
@@ -129,11 +147,12 @@
             <div class="footer__address">
                 <p class="footer__text">
                     ул. Большая Конюшенная, д. 19/8
-                    Санкт-Петербург
+
                 </p>
+                <p class="footer__text-second"> Санкт-Петербург</p>
             </div>
         </div>
-        <div class="footer__map">
+        <div class=" footer__map-bg">
             <iframe class="footer__google-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003128!2d30.32085871610071!3d59.93871916905414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1611928243790!5m2!1sru!2sru"
                 width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">

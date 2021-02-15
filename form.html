@@ -28,7 +28,7 @@
                             <a class="header__catalog" href="catalog.html">Каталог продукции</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__program" href="form.html">Подбор программы</a>
+                            <a class="header__program header__program--active" href="form.html">Подбор программы</a>
                         </li>
                     </ul>
                 </div>
@@ -97,7 +97,7 @@
                             </p>
                             <p class="section-choice__phone">
                                 <label class="section-choice__phone-label" for="phone">Телефон:*</label>
-                                <input class="section-choice__phone-input" type="number" name="text" id="phone"
+                                <input class="section-choice__phone-input" type="text" name="text" id="phone"
                                     placeholder="8 (960) 900-60-90">
                             </p>
                         </fieldset>
@@ -122,33 +122,35 @@
                         <div class="section-choice__extra-inscription">
                             <p class="section-choice__extra-title">Дополнительно</p>
                         </div>
-                        <fieldset class="section-choice__extra-fieldset">
-                            <div class="section-choice__extra-list">
+
+                        <div class="section-choice__extra-list">
+                            <fieldset class="section-choice__extra-fieldset">
                                 <p class="section-choice__extra-block">
-                                    <input class="section-choice__extra-block-input" type="checkbox" name="sugar"
-                                        id="sugar">
+                                    <input class="section-choice__extra-block-input section-choice__input"
+                                        type="checkbox" name="checkbox" id="sugar" checked>
                                     <label class="section-choice__extra-block-label"
                                         for="sugar">Сахарозаменитель</label>
                                 </p>
                                 <p class="section-choice__extra-block-first">
-                                    <input class="section-choice__extra-first-input" type="checkbox" name="water"
-                                        id="water">
-                                    <label class="section-choice__extra-first-label" for="water">Питьевая вода</label>
+                                    <input class="section-choice__extra-first-input section-choice__input"
+                                        type="checkbox" name="checkbox" id="water">
+                                    <label class="section-choice__extra-first-label " for="water">Питьевая вода</label>
 
                                 </p>
                                 <p class="section-choice__extra-block-second">
-                                    <input class="section-choice__extra-second-input" type="checkbox" name="milk"
-                                        id="milk">
+                                    <input class="section-choice__extra-second-input section-choice__input"
+                                        type="checkbox" name="checkbox" id="milk">
                                     <label class="section-choice__extra-second-input" for="milk">Молоко</label>
 
                                 </p>
                                 <p class="section-choice__extra-block-third">
-                                    <input class="section-choice__extra-third-input" type="checkbox" name="vitamins"
-                                        id="vitamins">
+                                    <input class="section-choice__extra-third-input section-choice__input"
+                                        type="checkbox" name="checkbox" id="vitamins">
                                     <label class="section-choice__extra-third-input" for="vitamins">Витамины</label>
                                 </p>
-                            </div>
-                        </fieldset>
+                            </fieldset>
+                        </div>
+
                     </div>
                     <div class="section-choice__extra-submit container">
                         <button class="section-choice__button" type="submit">Отправить заявку</button>
@@ -160,7 +162,7 @@
 
     </main>
     <footer class="footer">
-        <div class=" footer__background">
+        <div class=" footer__background footer__background-bg">
             <div class="footer__wraper container">
                 <div class="footer__information">
                     <p class="footer__cooperation">приглашаем <br>
@@ -171,8 +173,9 @@
                 <div class="footer__address">
                     <p class="footer__text">
                         ул. Большая Конюшенная, д. 19/8
-                        Санкт-Петербург
+
                     </p>
+                    <p class="footer__text-second"> Санкт-Петербург</p>
                 </div>
 
             </div>
