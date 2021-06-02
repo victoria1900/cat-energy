@@ -406,7 +406,7 @@ p {
 
     .section-choice__comments-fieldset textarea[id="comments"] {
         font-family: inherit;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: normal;
         line-height: 1.13;
         text-align: left;
@@ -3826,8 +3826,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 340px;
-        left: 29px;
+        top: 24px;
+        left: 2px;
     }
 
     .section-catalog__value--second::after {
@@ -3835,8 +3835,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 372px;
-        left: 29px;
+        top: 34px;
+        left: 2px;
     }
 
     .section-catalog__value--third::after {
@@ -3844,8 +3844,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 404px;
-        left: 29px;
+        top: 34px;
+        left: 2px;
     }
 
     .section-catalog__element-first {
@@ -3895,8 +3895,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 338px;
-        left: 22px;
+        left: 2px;
+    top: 24px;
     }
 
     .section-catalog__value-taste {
@@ -3908,8 +3908,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 370px;
-        left: 22px;
+        left: 2px;
+        top: 35px;
     }
 
     .section-catalog__value-prise {
@@ -3921,8 +3921,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 402px;
-        left: 22px;
+        left: 2px;
+        top: 34px;
     }
 
     .section-catalog__element-second {
@@ -3954,8 +3954,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 304px;
-        left: 5px;
+        top: 24px;
+    left: 1px;
     }
 
     .section-catalog__value--taste {
@@ -3967,8 +3967,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 336px;
-        left: 5px;
+        top: 33px;
+        left: 1px;
     }
 
     .section-catalog__value--prise {
@@ -3980,8 +3980,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 368px;
-        left: 5px;
+        top: 33px;
+        left: 1px;
     }
 
     .section-catalog__first-value {
@@ -3993,8 +3993,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 338px;
-        left: 24px;
+        top: 24px;
+    left: -1px;
     }
 
     .section-catalog__second-value {
@@ -4006,8 +4006,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 370px;
-        left: 24px;
+        top: 34px;
+        left: -1px;
     }
 
     .section-catalog__third-value {
@@ -4019,8 +4019,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 402px;
-        left: 24px;
+        top: 34px;
+    left: -1px;
     }
 
     .section-catalog__element-third {
@@ -4201,8 +4201,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 301px;
-        left: 6px;
+        left: 0px;
+    top: 24px;
     }
 
     .section-catalog__value-value-taste {
@@ -4214,8 +4214,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 333px;
-        left: 6px;
+        left: 0px;
+    top: 35px;
     }
 
     .section-catalog__value-value-prise {
@@ -4227,8 +4227,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 365px;
-        left: 7px;
+        left: 0px;
+    top: 35px;
     }
 
     .section-catalog__value--fifth {
@@ -4240,8 +4240,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 338px;
-        left: 20px;
+        left: 0px;
+        top: 24px;
     }
 
     .section-catalog__value-taste-fifth {
@@ -4253,8 +4253,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 370px;
-        left: 21px;
+        left: 0px;
+        top: 35px;
     }
 
     .section-catalog__value-prise-fifth {
@@ -4266,8 +4266,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 402px;
-        left: 20px;
+        left: 0px;
+        top: 35px;
     }
 
     .section-catalog__value-mass-first {
@@ -4279,8 +4279,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 304px;
-        left: 6px;
+        left: 0px;
+        top: 25px;
     }
 
     .section-catalog__value-taste-first {
@@ -4292,8 +4292,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 336px;
-        left: 6px;
+        left: 0px;
+        top: 36px;
     }
 
     .section-catalog__value-prise-first {
@@ -4305,8 +4305,8 @@ p {
         position: absolute;
         border-bottom: solid 1px #dadada;
         width: 249px;
-        top: 368px;
-        left: 6px;
+        left: 0px;
+    top: 36px;
     }
 
     .section-goods__title {
